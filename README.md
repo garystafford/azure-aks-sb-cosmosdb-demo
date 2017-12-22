@@ -8,7 +8,7 @@ Sample vote, election, and candidate MongoDB documents may be created using the 
 
 Please read the post; it goes into details on using the resources in this GitHub repository.
 
-![Architecture](AKS-Voter-API-Architecture.png)
+![Architecture](pics/AKS-Voter-API-Architecture.png)
 
 ### Postscript
 
