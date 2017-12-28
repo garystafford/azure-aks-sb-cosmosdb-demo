@@ -1,9 +1,9 @@
-REM apply Voter API Resources Part 1
+REM apply voter api resources part 1
 
-REM Namespace
-kubectl apply -f .\namespace.yaml
+REM namespace
+kubectl apply -f .\other\namespace.yaml
 
-REM Secrets
+REM secrets
 kubectl apply ^
 	-f .\secrets\azure-cosmosdb-election-secret.yaml ^
 	-f .\secrets\azure-cosmosdb-candidate-secret.yaml ^

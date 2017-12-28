@@ -1,6 +1,6 @@
-REM apply Voter API Resources Part 2
+REM apply voter api resources part 2
 
-REM Services
+REM services
 kubectl apply ^
   -f .\services\candidate-deployment.yaml ^
   -f .\services\candidate-service.yaml ^
@@ -13,4 +13,4 @@ REM wait for services to come up fully
 timeout 30
 
 REM Ingress
-kubectl apply -f .\ingress.yaml
+kubectl apply -f .\other\ingress.yaml

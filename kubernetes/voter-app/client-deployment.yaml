@@ -15,10 +15,10 @@ spec:
         io.kompose.service: client
     spec:
       containers:
-      - image: garystafford/voter-client:kub-aks-0.5.59
+      - image: garystafford/voter-client:angular-0.6.69
         name: client
         ports:
-        - containerPort: 8080
+        - containerPort: 80
         resources: {}
         imagePullPolicy: Always
       restartPolicy: Always
